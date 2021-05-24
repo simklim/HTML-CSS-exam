@@ -15,6 +15,7 @@ header img {
 header .search {
   position: relative;
   background: #ddd;
+  display: inline;
 }
 
 header .search i {
