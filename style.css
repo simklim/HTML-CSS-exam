@@ -1,0 +1,163 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #cfcfcf;
+  text-align: center;
+  padding: 2rem 0rem;
+}
+
+header img {
+  width: 10rem;
+}
+
+header .search {
+  position: relative;
+  background: #ddd;
+}
+
+header .search i {
+  position: absolute;
+  left: 0.3rem;
+  top: 0.2rem;
+}
+
+header .search input {
+  padding-left: 1.5rem;
+}
+
+.hero {
+  background-image: url("https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2534&q=80");
+  background-size: cover;
+  width: 100%;
+  height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero h1 {
+  color: #fff;
+}
+
+.photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 1rem;
+}
+
+.photos img {
+  max-width: 33.33%;
+  border-radius: 50%;
+  padding: 1rem 0.5rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.description,
+.contact {
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.description h2,
+.description h3,
+.contact h2,
+.contact h3 {
+  color: #ac5757;
+}
+
+.description img,
+.contact img {
+  border-radius: 50%;
+  max-width: 50%;
+}
+
+footer {
+  background-color: #cfcfcf;
+  border-top: 1rem solid #ac5757;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+footer h3 {
+  color: #ac5757;
+}
+
+footer a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 40rem) {
+  .wrapper {
+    max-width: 64rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  header .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .photos {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .photos img {
+    padding: 0;
+    max-width: 25%;
+    margin-top: -130px;
+  }
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 3rem 0;
+  }
+  .contact div {
+    max-width: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact div .text {
+    display: block;
+    padding: 0 1rem;
+  }
+  footer .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+/*# sourceMappingURL=style.css.map */
